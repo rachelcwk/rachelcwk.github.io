@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rachel Eckels</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+  </head>
+  <body>
+    <div class="navbar" style="z-index: 1">
+      <a href="#home" class="home">Home</a>
+      <div class="navbar-menu" id="myTopnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about-me">About Me</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="title" id="home" name="home">
+      <h1>Hello, I'm <em>Rachel</em>.</h1>
+      <br>
+      <h3>I am a designer/crafter/thing maker.</h3>
+    </div>
+    <div class="portfolio" id="portfolio" name="portfolio">
+      <div class="portfolio_title">
+        <h2>Portfolio</h2>
+        <div class="line-container">
+          <div class="line" style="z-index: -1"></div>
+        </div>
+      </div>
+      <br>
+    </div>
+    <div class="portfolio-links">
+      <div class="row">
+        <div class="column">
+          <a href="brewfinder.html">
+            <img src="img/BrewFinder.png">
+          </a>
+        </div>
+        <div class="column">
+          <a href="solstice.html">
+            <img src="img/Solstice.png">
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <a href="runningmates.html">
+            <img src="img/RunningMates.png">
+          </a>
+        </div>
+        <div class="column"></div>
+      </div>
+    </div>
+    <div class="about-me" id="about-me">
+      <div class="about-me-title">
+        <h2>About Me</h2>
+        <div class="line-container2">
+          <div class="line" style="z-index: -1"></div>
+        </div>
+      </div>
+      <br>
+    </div>
+    <div class="about-me-content">
+      <img class="picture" src="img/background-image.png">
+      <div class="text">
+        <p class="p1" style="color: white;">I have a BA in Music from the University of Arkansas. I also have a certificate in UI Design from CareerFoundry. I currently work as an instructor for Coding with Kids.</p>
+        <p class="p2" style="color: white;">In addition to design, I enjoy coding, traveling, pyrography, reading, gaming, climbing, and playing with my doggo!</p>
+      </div>
+    </div>
+    <div class="contact-title" id="contact">
+      <h2>Contact</h2>
+      <div class="line-container">
+        <div class="line" style="z-index: -1"></div>
+      </div>
+    </div>
+    <div class="contact-content">
+      <h3>Email me at theracheleckels@gmail.com</h3>
+      <br>
+      <h3>Connect with me on <a class="LinkedIn" href="https://www.linkedin.com/in/rachel-humble-b3104a192/">LinkedIn</a></h3>
+    <br>
+    <br>
+    <footer>
+      <h4 style="color:#979797">&copy; Rachel Eckels 2020</h4>
+    </footer>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "navbar-menu") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar-menu";
+        }
+      }
+    </script>
+  </body>
+</html>
